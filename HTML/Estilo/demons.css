@@ -1,0 +1,108 @@
+html{
+    width: 100%;   
+     
+    }
+    body{ 
+    background:
+    /* top, transparent black, faked with gradient */ 
+    linear-gradient(
+      rgba(0, 0, 0, 0.7), 
+      rgba(0, 0, 0, 0.7)
+    ),
+    /* bottom, image */
+    url(https://images3.alphacoders.com/108/thumb-1920-1081796.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    }
+    
+    
+    h1.alma{
+        color: aliceblue;   
+        font-family: initial;
+        letter-spacing: 4px;
+        float: left;
+       
+     }
+    div.videito{
+     float: left;
+     display: inline-flex; 
+     margin-top: 5rem;
+     margin-left: 2rem;
+    }
+    .limpiar{
+      clear: both;
+    }
+     .flex{
+      display: flex; 
+      width: 100%;
+      justify-content: space-around;
+      text-align: center;
+    }
+    .item {
+      flex-grow: 1;
+      color: aliceblue; 
+      font-size: initial;  
+    }
+    #image{
+      background-image: url(https://www.egames.news/__export/1605397404735/sites/debate/img/2020/11/14/1280x720.jpg_2120446623.jpg);
+      width: 27rem;
+      height: 30rem;
+      background-position:center; 
+      position: relative;
+      background-repeat: no-repeat;
+      background-size: cover;   
+      border: black 1px solid;
+    }
+    #image2{
+      background-image: url(https://www.egames.news/__export/1605456146718/sites/debate/img/2020/11/15/demons-souls-screenshot-07-disclaimer-en-05oct20_crop1605456056043.jpg_880774199.jpg);
+      width: 24rem;
+      height: 30rem;
+      background-position: center; 
+      position: relative;
+      background-repeat: no-repeat;
+      background-size: cover;
+      border: black 1px solid;
+    }
+    #image3{
+      background-image: url(https://ixbt.online/live/images/original/19/04/58/2020/11/27/6973a2034f.jpg);
+      width: 27rem;
+      height: 30rem;
+      background-position: center; 
+      position: relative;
+      background-repeat: no-repeat;
+      background-size: cover;
+      border: black 1px solid;
+    }
+    
+    #image4{
+      background-image: url(https://64.media.tumblr.com/eabe3530d116371d2619a531a9d0439c/8314aaae7c49b562-98/s1280x1920/e4338c4f67b5f25a89e1bdcdcc158761186e150c.png);
+      width: 27rem;
+      height: 30rem;
+      background-position:center; 
+      position: relative;
+      background-repeat: no-repeat;
+      background-size: cover;   
+      border: black 1px solid;
+    }
+    
+    #image5{
+      background-image: url(https://preview.redd.it/o2t7neqkfyy51.jpg?auto=webp&s=bbd6027e63816e18a16386d84e17e427aa2b40d4);
+      width: 24rem;
+      height: 30rem;
+      background-position: center; 
+      position: relative;
+      background-repeat: no-repeat;
+      background-size: cover;
+      border: black 1px solid;
+    }
+    #image6{
+      background-image: url(https://i.pinimg.com/originals/81/e9/ad/81e9ad8fa929fea8a09f8b793fc8e44b.jpg);
+      width: 27rem;
+      height: 30rem;
+      background-position: left; 
+      position: relative;
+      background-repeat: no-repeat;
+      background-size: cover;
+      border: black 1px solid;
+    }

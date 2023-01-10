@@ -1,0 +1,96 @@
+html{
+    width: 100%;   
+     
+    }
+    body{ 
+    background:
+    /* top, transparent black, faked with gradient */ 
+    linear-gradient(
+      rgba(0, 0, 0, 0.7), 
+      rgba(0, 0, 0, 0.7)
+    ),
+    /* bottom, image */
+    url(https://pbs.twimg.com/media/CjOovdYUUAA9HYe.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    }
+    h1.alma3{
+        color: aliceblue;   
+        font-family: initial;
+        letter-spacing: 4px;
+        float: left;  
+     }
+     .flex{
+        display: flex; 
+        width: 100%;
+        justify-content: space-around;
+        text-align: center;
+      }
+      .item {
+        flex-grow: 1;
+        color: aliceblue; 
+        font-size: initial;  
+      }
+      #image{
+        background-image: url(https://image.api.playstation.com/vulcan/img/rnd/202010/0823/nwAKSQRMXqURmgOYHaxickuk.png);
+        width: 27rem;
+        height: 30rem;
+        background-position:center; 
+        position: relative;
+        background-repeat: no-repeat;
+        background-size: cover;   
+        border: black 1px solid;
+      }
+      #image2{
+        background-image: url(https://i.pinimg.com/originals/d4/4a/05/d44a051ba6895329d036fabc70a5c180.jpg);
+        width: 27rem;
+        height: 30rem;
+        background-position: center; 
+        position: relative;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border: black 1px solid;
+      }
+      #image3{
+        background-image: url(https://steamuserimages-a.akamaihd.net/ugc/80343990354358401/B9AC52F0AAE8B51559ACD0C3766B99F363DC3B39/?imw=1024&imh=576&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true);
+        width: 27rem;
+        height: 30rem;
+        background-position: center; 
+        position: relative;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border: black 1px solid;
+      }
+      
+      #image4{
+        background-image: url(http://pm1.narvii.com/7026/baaf7dd31554ac11e50971741b31515c1dd5a296r1-478-842v2_uhq.jpg);
+        width: 27rem;
+        height: 30rem;
+        background-position:center; 
+        position: relative;
+        background-repeat: no-repeat;
+        background-size: cover;   
+        border: black 1px solid;
+      }
+      
+      #image5{
+        background-image: url(https://steamuserimages-a.akamaihd.net/ugc/770609061234143494/3DC4850E5A9E0723CC311C12875919712C8D7B9B/);
+        width: 27rem;
+        height: 30rem;
+        background-position: center; 
+        position: relative;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border: black 1px solid;
+      }
+      #image6{
+        background-image: url(https://cdn.donmai.us/original/c2/77/__sirris_of_the_sunless_realms_dark_souls_and_1_more_drawn_by_jlien__c277b9f98ecded03133777cf0013e687.jpg);
+        width: 27rem;
+        height: 30rem;
+        background-position: center; 
+        position: relative;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border: black 1px solid;
+      }

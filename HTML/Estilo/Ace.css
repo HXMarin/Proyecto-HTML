@@ -1,0 +1,102 @@
+html{
+    width: 100%;   
+     
+    }
+    body{ 
+    background:
+    /* top, transparent black, faked with gradient */ 
+    linear-gradient(
+      rgba(0, 0, 0, 0.7), 
+      rgba(0, 0, 0, 0.7)
+    ),
+    /* bottom, image */
+    url(https://images5.alphacoders.com/331/thumb-1920-331905.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    }
+    
+    h1.pelea{
+        color: aliceblue;   
+        font-family: initial;
+        letter-spacing: 4px;
+        float: left;
+    }
+    
+    .limpiar{
+      clear: both;
+    }
+     .flex{
+      display: flex; 
+      width: 100%;
+      justify-content: space-around;
+      text-align: center;
+    }
+    .item {
+      flex-grow: 1;
+      color: aliceblue; 
+      font-size: initial;  
+    }
+    #image{
+      background-image: url(https://c.tenor.com/2RsgryK4fv8AAAAC/phoenix-wright-ace-attorney.gif);
+      width:40rem;
+      height:35rem;
+      background-position:center; 
+      position: relative;
+      background-repeat: no-repeat;
+      background-size: cover;   
+      border: black 2px solid;
+    }
+    #image2{
+      background-image: url(https://c.tenor.com/FZOuIjQFH1sAAAAM/ace-attorney-trilogy-hd.gif);
+      width:40rem;
+      height:35rem;
+      background-position:center; 
+      position: relative;
+      background-repeat: no-repeat;
+      background-size: cover;
+      border: black 2px solid;
+    }
+    #image3{
+      background-image: url(https://c.tenor.com/bMdMzZSPdMAAAAAd/phoenix-wright-ace-attorney.gif);
+      width: 40rem;
+      height: 35rem;
+      background-position: center; 
+      position: relative;
+      background-repeat: no-repeat;
+      background-size: cover;
+      border: black 2px solid;
+    }
+    
+    #image4{
+      background-image: url(https://c.tenor.com/KmJlOyEXlpYAAAAd/ace-attorney-mia-fey.gif);
+      width: 40rem;
+      height: 35rem;
+      background-position:calc(); 
+      position: relative;
+      background-repeat: no-repeat;
+      background-size: cover;
+      border: black 2px solid; 
+    }
+    
+    #image5{
+      background-image: url(https://media.tenor.com/cVPGYvXJXYEAAAAC/franziska-von-karma-ace-attorney.gif);
+      width: 40rem;
+      height: 35rem;
+      background-position:center; 
+      position: relative;
+      background-repeat: no-repeat;
+      background-size: cover;
+      border: black 2px solid;
+    }
+    #image6{
+      background-image: url(https://c.tenor.com/0XZjbcr2vMYAAAAd/ema-skye-ace-attorney.gif);
+      width: 40rem;
+      height: 35rem;
+      background-position: center; 
+      position: relative;
+      background-repeat: no-repeat;
+      background-size: cover;
+      border: black 1px solid;
+    }
+    

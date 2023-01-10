@@ -1,0 +1,287 @@
+html{
+width: 100%;   
+}
+body{ 
+background:
+/* top, transparent black, faked with gradient */ 
+linear-gradient(
+  rgba(0, 0, 0, 0.7), 
+  rgba(0, 0, 0, 0.7)
+),
+/* bottom, image */
+url(https://i.blogs.es/0f71dd/elden-ring-rendimiento/1366_2000.jpeg);
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+}
+@keyframes slideInFromLeft {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  
+  .transition {  
+    /* This section calls the slideInFromLeft animation we defined above */
+    animation: 1s ease-out 0s 1 slideInFromLeft;
+  }
+ h1.from{
+    color: aliceblue;   
+    font-family: initial;
+    letter-spacing: 4px;
+    float: left;
+   
+ }
+ h1.ninja{
+    color: aliceblue;
+    letter-spacing: 2px;
+    flex-grow: 2;
+    color: aliceblue; 
+    display: flex; 
+    width: 100%;
+    justify-content: space-around;
+    text-align: center;
+ }
+ h2.souls{
+  
+    float: left;
+    
+ }
+ .limpiar{
+     clear: both;
+ }
+ .flex{
+    display: flex; 
+    width: 100%;
+    justify-content: space-around;
+    text-align: center;
+ }
+ .break{
+    flex-basis: 100%;
+    height: 0;
+
+ }
+ .item {
+     flex-grow: 1;
+     color: aliceblue; 
+     font-size: initial;  
+ }
+ .itemlong {
+     width: 100%;
+ }
+ #image{
+    background:
+        linear-gradient(
+      rgba(0, 0, 0, 0.7), 
+      rgba(0, 0, 0, 0.7)
+    ),
+    url(https://i.blogs.es/591b5a/280518-darksouls-review/1366_2000.jpg);
+     width: 34rem;
+     height: 30rem;
+     background-position: calc(); 
+     position: relative;
+     background-repeat: no-repeat;
+     background-size: cover;   
+ }
+ #image:hover{
+    background:
+        linear-gradient(
+      rgba(255, 255, 255, 0.507), 
+      rgba(255, 255, 255, 0.0)
+    ),
+    url(https://i.blogs.es/591b5a/280518-darksouls-review/1366_2000.jpg);
+    width: 35rem;
+    height: 30rem;
+    background-position: calc(); 
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+ #image2{
+    background:
+        linear-gradient(
+      rgba(0, 0, 0, 0.7), 
+      rgba(0, 0, 0, 0.7)
+    ),
+    url(https://cdn-products.eneba.com/resized-products/et3P3hn_350x200_1x-0.jpg);
+    width: 35rem;
+    height: 30rem;
+    background-position: center; 
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#image2:hover{
+    background:
+        linear-gradient(
+      rgba(255, 255, 255, 0.507), 
+      rgba(255, 255, 255, 0.0)
+    ),
+    url(https://cdn-products.eneba.com/resized-products/et3P3hn_350x200_1x-0.jpg);
+    width: 35rem;
+    height: 30rem;
+    background-position: center; 
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#image3{
+    background:
+        linear-gradient(
+      rgba(0, 0, 0, 0.7), 
+      rgba(0, 0, 0, 0.7)
+    ),
+    url(https://image.api.playstation.com/cdn/EP0700/CUSA03365_00/OFMeAw2KhrdaEZAjW1f3tCIXbogkLpTC.png);
+    width: 35rem;
+    height: 30rem;
+    background-position: center; 
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#image3:hover{
+    background:
+        linear-gradient(
+      rgba(255, 255, 255, 0.61), 
+      rgba(255, 255, 255, 0.0)
+    ),
+    url(https://image.api.playstation.com/cdn/EP0700/CUSA03365_00/OFMeAw2KhrdaEZAjW1f3tCIXbogkLpTC.png);
+    width: 35rem;
+    height: 30rem;
+    background-position: center; 
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#image4{
+    background:
+        linear-gradient(
+      rgba(0, 0, 0, 0.7), 
+      rgba(0, 0, 0, 0.7)
+    ),
+    url(https://www.techinn.com/f/13752/137522170/sony-juego-ps4-bloodborne-ps-hits.jpg);
+    width: 35rem;
+    height: 30rem;
+    background-position: center; 
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+ #image4:hover{
+    background:
+        linear-gradient(
+      rgba(255, 255, 255, 0.582), 
+      rgba(255, 255, 255, 0.0)
+    ),
+    url(https://www.techinn.com/f/13752/137522170/sony-juego-ps4-bloodborne-ps-hits.jpg);
+    width: 35rem;
+    height: 30rem;
+    background-position: center; 
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#image5{
+    background:
+        linear-gradient(
+      rgba(0, 0, 0, 0.7), 
+      rgba(0, 0, 0, 0.7)
+    ),
+    url(https://m.media-amazon.com/images/M/MV5BMzhjMGE4ZWQtM2ZhNy00OWJjLThkMTUtZTkwMTc3ZDJjODg2XkEyXkFqcGdeQXVyMTk5NDI0MA@@._V1_FMjpg_UX1000_.jpg);
+    width: 35rem;
+    height: 30rem;
+    background-position: center; 
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+ #image5:hover{
+    background:
+        linear-gradient(
+      rgba(255, 255, 255, 0.281), 
+      rgba(255, 255, 255, 0.0)
+    ),
+    url(https://m.media-amazon.com/images/M/MV5BMzhjMGE4ZWQtM2ZhNy00OWJjLThkMTUtZTkwMTc3ZDJjODg2XkEyXkFqcGdeQXVyMTk5NDI0MA@@._V1_FMjpg_UX1000_.jpg);
+    width: 35rem;
+    height: 30rem;
+    background-position: center; 
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#image6{
+    background:
+        linear-gradient(
+      rgba(0, 0, 0, 0.7), 
+      rgba(0, 0, 0, 0.7)
+    ),
+    url(https://generacionxbox.com/wp-content/uploads/2019/10/Elden-Ring-lanzamiento-2020-xbox.jpg);
+    width: 35rem;
+    height: 30rem;
+    background-position: center; 
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#image6:hover{
+    background:
+        linear-gradient(
+      rgba(211, 208, 208, 0.644), 
+      rgba(206, 198, 198, 0.11)
+    ),
+    url(https://generacionxbox.com/wp-content/uploads/2019/10/Elden-Ring-lanzamiento-2020-xbox.jpg);
+    width: 35rem;
+    height: 30rem;
+    background-position: center; 
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#image7{
+  background:
+      linear-gradient(
+    rgba(0, 0, 0, 0.7), 
+    rgba(0, 0, 0, 0.7)
+  ),
+  url(https://www.mobygames.com/images/covers/l/274978-demon-s-souls-playstation-3-front-cover.jpg);
+  width: 35rem;
+  height: 30rem;
+  background-position: center; 
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#image7:hover{
+  background:
+      linear-gradient(
+    rgba(211, 208, 208, 0.644), 
+    rgba(206, 198, 198, 0.11)
+  ),
+  url(https://www.mobygames.com/images/covers/l/274978-demon-s-souls-playstation-3-front-cover.jpg);
+  width: 35rem;
+  height: 30rem;
+  background-position: center; 
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.hr{
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+   
+}
+
+div.audio{
+ float: left;
+ display: inline-flex;   
+ 
+}
+

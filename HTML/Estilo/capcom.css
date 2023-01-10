@@ -1,0 +1,118 @@
+html{
+    width: 100%;   
+     
+    }
+    body{ 
+    background:
+    /* top, transparent black, faked with gradient */ 
+    linear-gradient(
+      rgba(0, 0, 0, 0.7), 
+      rgba(0, 0, 0, 0.7)
+    ),
+    /* bottom, image */
+    url(https://wallpaperaccess.com/full/1943802.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    }
+    @keyframes slideInFromLeft {
+      0% {
+        transform: translateX(100%);
+      }
+      100% {
+        transform: translateX(0);
+      }
+    }
+    
+    .transition {  
+      /* This section calls the slideInFromLeft animation we defined above */
+      animation: 1s ease-out 0s 1 slideInFromLeft;
+    }
+    
+    h1.alma{
+        color: aliceblue;   
+        font-family: initial;
+        letter-spacing: 4px;
+        float: left;
+    }
+    
+    .limpiar{
+      clear: both;
+    }
+     .flex{
+      display: flex; 
+      width: 100%;
+      justify-content: space-around;
+      text-align: center;
+    }
+    .item {
+      flex-grow: 1;
+      color: aliceblue; 
+      font-size: initial;  
+    }
+    #image{
+      background-image: url(https://i.pinimg.com/originals/9c/14/11/9c14118ed54a1516e3ac4e003af1bd96.png);
+      width: 35rem;
+      height: 30rem;
+      background-position:center; 
+      position: relative;
+      background-repeat: no-repeat;
+      background-size: cover;   
+    }
+    #image2{
+      background-image: url(https://1000marcas.net/wp-content/uploads/2021/07/Monster-Hunter-Logo.png);
+      width: 45rem;
+      height: 30rem;
+      background-position: center; 
+      position: relative;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    #image3{
+      background-image: url(https://i.pinimg.com/originals/44/e6/af/44e6af1df19daa478fa72fbcc542eaa2.png);
+      width: 40rem;
+      height: 30rem;
+      background-position: center; 
+      position: relative;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    
+    #image4{
+      background-image: url(https://static.wikia.nocookie.net/heroes-unite/images/5/5c/Ace_Attorney_Series_Logo.png/revision/latest?cb=20181209221129);
+      width: 45rem;
+      height: 30rem;
+      background-position:center; 
+      position: relative;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    
+    #image5{
+      background-image: url(https://www.savepng.com/file/thumb/2020-06/28193-8-resident-evil-logo-transparent-image-thumb.png);
+      width: 40rem;
+      height: 30rem;
+      background-position: center; 
+      position: relative;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    #image6{
+      background-image: url(https://www.capcom.com/manuals/ddda/images/logo.400px.png);
+      width: 40rem;
+      height: 30rem;
+      background-position: left; 
+      position: relative;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    #image7{
+      background-image: url(https://upload.wikimedia.org/wikipedia/commons/0/08/Devil-may-cry.png);
+      width: 80rem;
+      height: 30rem;
+      background-position: center; 
+      position: relative;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    

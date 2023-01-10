@@ -1,0 +1,94 @@
+html{
+    width: 100%;   
+     
+    }
+    body{ 
+    background:
+    /* top, transparent black, faked with gradient */ 
+    linear-gradient(
+      rgba(0, 0, 0, 0.7), 
+      rgba(0, 0, 0, 0.7)
+    ),
+    /* bottom, image */
+    url(https://i.pinimg.com/originals/04/56/32/045632827cc644fdb8a7962a5f2fcb81.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    }
+    
+    h1.alma{
+        color: aliceblue;   
+        font-family: initial;
+        letter-spacing: 4px;
+        float: left;
+       
+     }
+     .flex{
+        display: flex; 
+        width: 100%;
+        justify-content: space-around;
+        text-align: center;
+      }
+      .item {
+        flex-grow: 1;
+        color: aliceblue; 
+        font-size: initial;  
+      }
+      #image{
+        background-image: url(https://static.wikia.nocookie.net/megaman/images/3/3a/Mega_Man_X_DiVE_Magma_Dragoon.png/revision/latest?cb=20200806093733);
+        width: 27rem;
+        height: 35rem;
+        background-position:right; 
+        position: relative;
+        background-repeat: no-repeat;
+        background-size: cover;   
+      }
+      #image2{
+        background-image: url(https://i.imgur.com/77PWv.png);
+        width: 25rem;
+        height: 35rem;
+        background-position: right; 
+        position: relative;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      #image3{
+        background-image: url(https://static.wikia.nocookie.net/sonic/images/7/73/Proto_Man_Perfil.png/revision/latest?cb=20161228210543&path-prefix=es);
+        width: 27rem;
+        height: 30rem;
+        background-position: calc(); 
+        position: relative;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      
+      #image4{
+        background-image: url(https://static.wikia.nocookie.net/esmegaman/images/3/30/MM11-MegaMan.png/revision/latest?cb=20200913034644);
+        width: 27rem;
+        height: 30rem;
+        background-position:calc(); 
+        position: relative;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      
+      #image5{
+        background-image: url(https://static.wikia.nocookie.net/world-fighters/images/b/b6/Bass-megaman.gif/revision/latest?cb=20160208014524);
+        width: 27rem;
+        height: 30rem;
+        background-position: center; 
+        position: relative;
+        background-repeat: no-repeat;
+        background-size: cover;
+    
+      }
+      #image6{
+        background-image: url(https://u.kanobu.ru/longreads/2019/3/24/94f56c92-7e87-4732-bf56-f40e8d4e4b01.jpg);
+        width: 27rem;
+        height: 30rem;
+        background-position: center; 
+        position: relative;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border: black 1px solid;
+      }

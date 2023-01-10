@@ -1,0 +1,104 @@
+html{
+width: 100%;   
+     
+}
+body{ 
+background:
+/* top, transparent black, faked with gradient */ 
+linear-gradient(
+rgba(0, 0, 0, 0.7), 
+rgba(0, 0, 0, 0.7)
+),
+/* bottom, image */
+url(https://images7.alphacoders.com/528/thumb-1920-528418.jpg);
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+}
+h1.almaII{
+color: aliceblue;   
+font-family: initial;
+letter-spacing: 4px;
+float: left;
+}
+.flex{
+display: flex; 
+width: 100%;
+justify-content: space-around;
+text-align: center;
+}
+.item {
+  flex-grow: 1;
+  color: aliceblue; 
+  font-size: initial;  
+}
+#image{
+  background-image: url(http://2.bp.blogspot.com/-Trs_CosOjs0/VV-wG8sErkI/AAAAAAAAAQM/NPG_6s2KLZ4/s1600/Dark%2BSouls%2B2%2B-%2BSir%2BAlonne%2B2.jpg);
+  width: 27rem;
+  height: 30rem;
+  background-position:center; 
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover; 
+  border: black 1px solid;  
+}
+#image2{
+  background-image: url(https://i.redd.it/814kf8z8e5w61.png);
+  width: 24rem;
+  height: 30rem;
+  background-position: center; 
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: black 1px solid;
+}
+#image3{
+  background-image: url(https://i.imgur.com/uGY6cqY.gif);
+  width: 27rem;
+  height: 30rem;
+  background-position: center; 
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: black 1px solid;
+}
+#image4{
+  background-image: url(https://i.redd.it/mi3kkajcq8a51.jpg);
+  width: 27rem;
+  height: 30rem;
+  background-position: center; 
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: black 1px solid;
+}
+#image5{
+  background-image: url(https://p4.wallpaperbetter.com/wallpaper/611/941/119/dark-souls-dark-souls-ii-ancient-dragon-dragon-soul-wallpaper-preview.jpg);
+  width: 27rem;
+  height: 30rem;
+  background-position: center; 
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: black 1px solid;
+}
+#image5{
+  background-image: url(https://p4.wallpaperbetter.com/wallpaper/611/941/119/dark-souls-dark-souls-ii-ancient-dragon-dragon-soul-wallpaper-preview.jpg);
+  width: 27rem;
+  height: 30rem;
+  background-position: center; 
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: black 1px solid;
+}
+#image6{
+  background-image: url(https://static.wikia.nocookie.net/dark-souls/images/e/eb/Dulce_Shalquoir.png/revision/latest/top-crop/width/360/height/450?cb=20180715005255&path-prefix=es);
+  width: 27rem;
+  height: 30rem;
+  background-position: center; 
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: black 1px solid;
+}

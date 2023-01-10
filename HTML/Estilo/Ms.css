@@ -1,0 +1,94 @@
+html{
+    width: 100%;   
+     
+    }
+    body{ 
+    background:
+    /* top, transparent black, faked with gradient */ 
+    linear-gradient(
+      rgba(0, 0, 0, 0.7), 
+      rgba(0, 0, 0, 0.7)
+    ),
+    /* bottom, image */
+    url(https://images6.alphacoders.com/101/1012987.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    }
+    
+    h1.alma{
+        color: aliceblue;   
+        font-family: initial;
+        letter-spacing: 4px;
+        float: left;
+       
+     }
+     .flex{
+        display: flex; 
+        width: 100%;
+        justify-content: space-around;
+        text-align: center;
+      }
+      .item {
+        flex-grow: 1;
+        color: aliceblue; 
+        font-size: initial;  
+      }
+      #image{
+        background-image: url(https://static.wikia.nocookie.net/monsterhunter/images/3/35/MHWI-Ruiner_Nergigante_Icon.png/revision/latest?cb=20210724012223);
+        width: 33rem;
+        height: 35rem;
+        background-position:center; 
+        position: relative;
+        background-repeat: no-repeat;
+        background-size: cover;   
+      }
+      #image2{
+        background-image: url(https://mhworld.kiranico.com/storage/mhw/icon/em013_ID.png);
+        width: 33rem;
+        height: 35rem;
+        background-position: center; 
+        position: relative;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      #image3{
+        background-image: url(https://mhworld.kiranico.com/storage/mhw/icon/em124_ID.png);
+        width: 30rem;
+        height: 30rem;
+        background-position: calc(); 
+        position: relative;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      
+      #image4{
+        background-image: url(https://i.pinimg.com/originals/9b/d4/95/9bd4956767ed1844f744449786dcd33a.png);
+        width: 30rem;
+        height: 30rem;
+        background-position:calc(); 
+        position: relative;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      
+      #image5{
+        background-image: url(https://static.wikia.nocookie.net/monsterhunter/images/f/f3/MHWI-Stygian_Zinogre_Icon.png/revision/latest?cb=20210724012446);
+        width: 30rem;
+        height: 30rem;
+        background-position: center; 
+        position: relative;
+        background-repeat: no-repeat;
+        background-size: cover;
+    
+      }
+      #image6{
+        background-image: url();
+        width: 27rem;
+        height: 30rem;
+        background-position: center; 
+        position: relative;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border: black 1px solid;
+      }

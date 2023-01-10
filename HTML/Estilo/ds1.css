@@ -1,0 +1,101 @@
+html{
+width: 100%;   
+ 
+}
+body{ 
+background:
+/* top, transparent black, faked with gradient */ 
+linear-gradient(
+  rgba(0, 0, 0, 0.7), 
+  rgba(0, 0, 0, 0.7)
+),
+/* bottom, image */
+url(https://wallpapercave.com/wp/wp3756449.jpg);
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+}
+
+h1.alma{
+    color: aliceblue;   
+    font-family: initial;
+    letter-spacing: 4px;
+    float: left;
+}
+
+.limpiar{
+  clear: both;
+}
+ .flex{
+  display: flex; 
+  width: 100%;
+  justify-content: space-around;
+  text-align: center;
+}
+.item {
+  flex-grow: 1;
+  color: aliceblue; 
+  font-size: initial;  
+}
+#image{
+  background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/863ae786-87bf-4c2c-b0e1-3f1a4d7daba4/detauu8-81b90394-54fa-4d1d-947a-be5d69138518.png/v1/fill/w_1600,h_900,q_80,strp/manus_wallpaper_by_drshimu_detauu8-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9OTAwIiwicGF0aCI6IlwvZlwvODYzYWU3ODYtODdiZi00YzJjLWIwZTEtM2YxYTRkN2RhYmE0XC9kZXRhdXU4LTgxYjkwMzk0LTU0ZmEtNGQxZC05NDdhLWJlNWQ2OTEzODUxOC5wbmciLCJ3aWR0aCI6Ijw9MTYwMCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.RX2E7SaDb9sc3fJxNoub74V-hTn2RKLAGl0sNAbKjvM);
+  width: 27rem;
+  height: 30rem;
+  background-position:center; 
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;   
+  border: black 1px solid;
+}
+#image2{
+  background-image: url(https://steamuserimages-a.akamaihd.net/ugc/889888697879477957/7AB53D12767683E9F7054E5F82D800AA3C7D6D08/?imw=731&imh=1024&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true);
+  width: 24rem;
+  height: 30rem;
+  background-position: center; 
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: black 1px solid;
+}
+#image3{
+  background-image: url(https://static.wikia.nocookie.net/dark-souls/images/6/66/Kalameet%2C_el_Drag%C3%B3n_Negro.jpg/revision/latest?cb=20180224015545&path-prefix=es);
+  width: 27rem;
+  height: 30rem;
+  background-position: left; 
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: black 1px solid;
+}
+
+#image4{
+  background-image: url(https://allgamersin.com/wp-content/uploads/2018/06/dark-souls-praise-the-sun-figura-10.jpg);
+  width: 27rem;
+  height: 30rem;
+  background-position:center; 
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;   
+  border: black 1px solid;
+}
+
+#image5{
+  background-image: url(https://static.wikia.nocookie.net/darksouls/images/f/f1/Siegmeyer_of_Catarina_HD.png/revision/latest?cb=20190714002826);
+  width: 24rem;
+  height: 30rem;
+  background-position: center; 
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: black 1px solid;
+}
+#image6{
+  background-image: url(https://i.etsystatic.com/15342928/r/il/684155/2381667239/il_570xN.2381667239_e29q.jpg);
+  width: 27rem;
+  height: 30rem;
+  background-position: left; 
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: black 1px solid;
+}

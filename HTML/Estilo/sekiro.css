@@ -1,0 +1,98 @@
+html{
+    width: 100%;   
+     
+    }
+    body{ 
+    background:
+    /* top, transparent black, faked with gradient */ 
+    linear-gradient(
+      rgba(0, 0, 0, 0.7), 
+      rgba(0, 0, 0, 0.7)
+    ),
+    /* bottom, image */
+    url(https://i.pinimg.com/originals/c2/df/86/c2df86caab276688928112c1abb4c0b4.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    }
+    
+    h1.alma{
+        color: aliceblue;   
+        font-family: initial;
+        letter-spacing: 4px;
+        float: left;
+       
+     }
+     .flex{
+        display: flex; 
+        width: 100%;
+        justify-content: space-around;
+        text-align: center;
+      }
+      .item {
+        flex-grow: 1;
+        color: aliceblue; 
+        font-size: initial;  
+      }
+      #image{
+        background-image: url(https://pbs.twimg.com/media/EDpGk8qXUAIrTf4.jpg);
+        width: 27rem;
+        height: 30rem;
+        background-position:right; 
+        position: relative;
+        background-repeat: no-repeat;
+        background-size: cover;   
+        border: black 1px solid;
+      }
+      #image2{
+        background-image: url(https://static.wikia.nocookie.net/sekiro/images/1/1f/Drag%C3%B3n_divino_2.jpg/revision/latest?cb=20190417160900&path-prefix=es);
+        width: 27rem; 
+        height: 30rem;
+        background-position: center; 
+        position: relative;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border: black 1px solid;
+      }
+      #image3{
+        background-image: url(https://static.wikia.nocookie.net/sekiro/images/5/5c/Owl.png/revision/latest?cb=20190506205342&path-prefix=es);
+        width: 27rem;
+        height: 30rem;
+        background-position: center; 
+        position: relative;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border: black 1px solid;
+      }
+      
+      #image4{
+        background-image: url(https://static.wikia.nocookie.net/shadowsdietwice/images/5/53/Sculptor.png/revision/latest?cb=20190421145426);
+        width: 27rem;
+        height: 30rem;
+        background-position:center; 
+        position: relative;
+        background-repeat: no-repeat;
+        background-size: cover;   
+        border: black 1px solid;
+      }
+      
+      #image5{
+        background-image: url(https://64.media.tumblr.com/36cbbd2e0f55549ba445a93f98159aaf/d42225ba110a7985-82/s2048x3072/1f4fab0e4c18c0c210c8ee180c8c4fc3a6cd419f.jpg);
+        width: 27rem;
+        height: 30rem;
+        background-position: center; 
+        position: relative;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border: black 1px solid;
+      }
+      #image6{
+        background-image: url(https://u.kanobu.ru/longreads/2019/3/24/94f56c92-7e87-4732-bf56-f40e8d4e4b01.jpg);
+        width: 27rem;
+        height: 30rem;
+        background-position: center; 
+        position: relative;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border: black 1px solid;
+      }
