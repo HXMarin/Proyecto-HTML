@@ -1,0 +1,95 @@
+html{
+    width: 100%;   
+     
+    }
+    body{ 
+    background:
+    /* top, transparent black, faked with gradient */ 
+    linear-gradient(
+      rgba(0, 0, 0, 0.7), 
+      rgba(0, 0, 0, 0.7)
+    ),
+    /* bottom, image */
+    url(https://images8.alphacoders.com/106/1062289.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    }
+    h1.alma3{
+        color: aliceblue;   
+        font-family: initial;
+        letter-spacing: 4px;
+        float: left;  
+     }
+     .flex{
+        display: flex; 
+        width: 100%;
+        justify-content: space-around;
+        text-align: center;
+      }
+      .item {
+        flex-grow: 1;
+        color: aliceblue; 
+        font-size: initial;  
+      }
+      #image{
+        background-image: url(https://static.wikia.nocookie.net/devilmaycry/images/b/b9/DanteDMC5.png/revision/latest?cb=20190725043056&path-prefix=es);
+        width: 34rem;
+        height: 83rem;
+        background-position:center; 
+        position: relative;
+        background-repeat: no-repeat;
+        background-size: cover;   
+      }
+      #image2{
+        background-image: url(https://static.wikia.nocookie.net/devilmaycry/images/4/4e/Vergil_DMC5.png/revision/latest?cb=20201021151922);
+        width: 38rem;
+        height: 83rem;
+        background-position: center; 
+        position: relative;
+        background-repeat: no-repeat;
+        background-size: cover; 
+      }
+      #image3{
+        background-image: url(https://static.wikia.nocookie.net/devilmaycry/images/9/9f/Nero_DMC5.png/revision/latest?cb=20181001090434);
+        width: 34rem;
+        height: 83rem;
+        background-position: center; 
+        position: relative;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      
+      #image4{
+        background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/5e5896a5-4a79-496a-bea4-81f26cfa2650/dd27836-d30aa465-5089-404e-a4d1-62b8f9d72ab5.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzVlNTg5NmE1LTRhNzktNDk2YS1iZWE0LTgxZjI2Y2ZhMjY1MFwvZGQyNzgzNi1kMzBhYTQ2NS01MDg5LTQwNGUtYTRkMS02MmI4ZjlkNzJhYjUucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.WINtgj85UB5liGLDGzdleY1Y_qCNFpaIlRSLcCVVtts);
+        width: 27rem;
+        height: 83rem;
+        background-position:right; 
+        position: relative;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      
+      #image5{
+        background-image: url(https://pbs.twimg.com/media/DtcZLBqUwAAEzfY.jpg);
+        width: 24rem;
+        height: 30rem;
+        background-position: center; 
+        position: relative;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border: black 1px solid;
+      }
+      #image6{
+        background-image: url(https://i1.sndcdn.com/artworks-000148051073-0n4neh-t500x500.jpg);
+        width: 27rem;
+        height: 30rem;
+        background-position: center; 
+        position: relative;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border: black 1px solid;
+      }
+      video{
+        width: 90%;
+      }

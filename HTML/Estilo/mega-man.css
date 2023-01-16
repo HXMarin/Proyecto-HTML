@@ -60,6 +60,7 @@ html{
         position: relative;
         background-repeat: no-repeat;
         background-size: cover;
+        transform: scaleX(-1);
       }
       
       #image4{
@@ -80,7 +81,7 @@ html{
         position: relative;
         background-repeat: no-repeat;
         background-size: cover;
-    
+        transform: scaleX(-1);
       }
       #image6{
         background-image: url(https://u.kanobu.ru/longreads/2019/3/24/94f56c92-7e87-4732-bf56-f40e8d4e4b01.jpg);

@@ -1,0 +1,99 @@
+html{
+    width: 100%;   
+     
+    }
+    body{ 
+    background:
+    /* top, transparent black, faked with gradient */ 
+    linear-gradient(
+      rgba(0, 0, 0, 0.7), 
+      rgba(0, 0, 0, 0.7)
+    ),
+    /* bottom, image */
+    url(https://images4.alphacoders.com/198/thumb-1920-198046.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    }
+    
+    h1.pelea{
+        color: aliceblue;   
+        font-family: initial;
+        letter-spacing: 4px;
+        float: left;
+    }
+    
+    .limpiar{
+      clear: both;
+    }
+     .flex{
+      display: flex; 
+      width: 100%;
+      justify-content: space-around;
+      text-align: center;
+    }
+    .item {
+      flex-grow: 1;
+      color: aliceblue; 
+      font-size: initial;  
+    }
+    #image{
+      background-image: url(https://static.wikia.nocookie.net/marvelvscapcom/images/c/c3/Warmachine-gold.gif/revision/latest?cb=20080512010402);
+      width:35rem;
+      height:36rem;
+      background-position:center; 
+      position: relative;
+      background-repeat: no-repeat;
+      background-size: cover;   
+    }
+    #image2{
+      background-image: url(https://static.wikia.nocookie.net/marvelvscapcom/images/9/95/Onslaught1.gif/revision/latest?cb=20080512012004);
+      width:30rem;
+      height: 36rem;
+      background-position:center; 
+      position: relative;
+      background-repeat: no-repeat;
+      background-size: cover;
+      transform: scaleX(-1);
+    }
+    #image3{
+      background-image: url(https://media2.giphy.com/media/BvHuKrdqsNSms/giphy.gif?cid=790b7611c7df6a0ab3e3f4d6806f7e741ced98920c7666cb&rid=giphy.gif&ct=s);
+      width: 30rem;
+      height: 30rem;
+      background-position: left; 
+      position: relative;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    
+    #image4{
+      background-image: url(https://static.wikia.nocookie.net/marvelvscapcom/images/6/6b/Viewtiful_Joe_MvC3_artwork.png/revision/latest?cb=20200105115828);
+      width: 30rem;
+      height: 30rem;
+      background-position:center; 
+      position: relative;
+      background-repeat: no-repeat;
+      background-size: cover; 
+    }
+    
+    #image5{
+      background-image: url(https://i.pinimg.com/originals/1b/65/de/1b65de05b32d483d8c6000e1eb05fe06.gif);
+      width: 24rem;
+      height: 30rem;
+      background-position:center; 
+      position: relative;
+      background-repeat: no-repeat;
+      background-size: cover;
+      transform: scaleX(-1);
+    }
+    #image6{
+      background-image: url(https://i.etsystatic.com/15342928/r/il/684155/2381667239/il_570xN.2381667239_e29q.jpg);
+      width: 27rem;
+      height: 30rem;
+      background-position: left; 
+      position: relative;
+      background-repeat: no-repeat;
+      background-size: cover;
+      border: black 1px solid;
+    }
+    
