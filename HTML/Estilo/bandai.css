@@ -1,0 +1,118 @@
+html{
+    width: 100%;   
+     
+    }
+    body{ 
+    background:
+    /* top, transparent black, faked with gradient */ 
+    linear-gradient(
+      rgba(0, 0, 0, 0.7), 
+      rgba(0, 0, 0, 0.7)
+    ),
+    /* bottom, image */
+    url(https://i.pinimg.com/originals/68/53/6c/68536cad03546285d8a01eb4bbf4a4f6.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    }
+    @keyframes slideInFromLeft {
+      0% {
+        transform: translateX(100%);
+      }
+      100% {
+        transform: translateX(0);
+      }
+    }
+    
+    .transition {  
+      /* This section calls the slideInFromLeft animation we defined above */
+      animation: 1s ease-out 0s 1 slideInFromLeft;
+    }
+    
+    h1.alma{
+        color: aliceblue;   
+        font-family: initial;
+        letter-spacing: 4px;
+        float: left;
+    }
+    
+    .limpiar{
+      clear: both;
+    }
+     .flex{
+      display: flex; 
+      width: 100%;
+      justify-content: space-around;
+      text-align: center;
+    }
+    .item {
+      flex-grow: 1;
+      color: aliceblue; 
+      font-size: initial;  
+    }
+    #image{
+      background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/a155f0b1-4492-4c2c-9f70-101cec027cb9/df81on3-c43788e7-b939-489e-9b2f-b90f4653a270.png/v1/fill/w_824,h_440,strp/tekken_logo_by_mockingraffy_df81on3-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NDQwIiwicGF0aCI6IlwvZlwvYTE1NWYwYjEtNDQ5Mi00YzJjLTlmNzAtMTAxY2VjMDI3Y2I5XC9kZjgxb24zLWM0Mzc4OGU3LWI5MzktNDg5ZS05YjJmLWI5MGY0NjUzYTI3MC5wbmciLCJ3aWR0aCI6Ijw9ODI0In1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.csrtwBj6sfPshfCETd2wZyozs2FIlryJVPiC-LE_HTk);
+      width: 45rem;
+      height: 25rem;
+      background-position:center; 
+      position: relative;
+      background-repeat: no-repeat;
+      background-size: cover;   
+    }
+    #image2{
+      background-image: url(https://www.iconninja.com/files/468/145/137/naruto-icon.svg);
+      width: 45rem;
+      height: 30rem;
+      background-position: center; 
+      position: relative;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    #image3{
+      background-image: url(https://p325k7wa.twic.pics/high/dark-souls/dark-souls-1/00-page-setup/ds1_logo.png?twic=v1/resize=600/step=10/quality=80);
+      width: 45rem;
+      height: 30rem;
+      background-position: center; 
+      position: relative;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    
+    #image4{
+      background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/3eb70ccc-e7ad-4e1a-87fa-f97df9ef1c52/d8rx6aw-7aed38dd-576b-47cc-b0b0-a24803f1f2fe.png/v1/fill/w_1024,h_576,strp/dragon_ball_z__dbz__nuevo_logo_by_saodvd_d8rx6aw-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NTc2IiwicGF0aCI6IlwvZlwvM2ViNzBjY2MtZTdhZC00ZTFhLTg3ZmEtZjk3ZGY5ZWYxYzUyXC9kOHJ4NmF3LTdhZWQzOGRkLTU3NmItNDdjYy1iMGIwLWEyNDgwM2YxZjJmZS5wbmciLCJ3aWR0aCI6Ijw9MTAyNCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.oYKaNgd3mlbQkcOGM5ZCJnb4RG0bBOxr3j5rSPCpSPg);
+      width: 45rem;
+      height: 25rem;
+      background-position:center; 
+      position: relative;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    
+    #image5{
+      background-image: url(http://s3.amazonaws.com/gt7sp-prod/decal/76/41/07/6061919870081074176_1.png);
+      width: 40rem;
+      height: 30rem;
+      background-position: center; 
+      position: relative;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    #image6{
+      background-image: url(https://liquipedia.net/commons/images/6/69/Soulcalibur_Online_Challenge.png);
+      width: 40rem;
+      height: 30rem;
+      background-position: center; 
+      position: relative;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    #image7{
+      background-image: url(https://cdn.freebiesupply.com/logos/thumbs/2x/pac-man-logo.png);
+      width: 80rem;
+      height: 30rem;
+      background-position: center; 
+      position: relative;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    

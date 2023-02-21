@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+ <gametitle>
+      <game category="souls">
+        <title lang="en">Dark Souls</title>
+        <author>From Software</author>
+        <year>2011</year>
+        <price>11.99</price>
+      </game>  
+      <game category="souls">  
+        <title lang="en">Dark Souls II</title>  
+        <author>From Software</author>  
+        <year>2014</year>  
+        <price>14.99</price>  
+      </game>
+      <game category="souls">  
+        <title lang="en">Dark Souls III</title>  
+        <author>From Software</author>  
+        <year>2016</year>  
+        <price>39.95</price>  
+      </game>  
+</gametitle>  
