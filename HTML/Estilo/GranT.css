@@ -1,0 +1,105 @@
+@font-face {
+    font-family:'GranT';
+    src: url("../Fonts/HelveticaMedium.ttf");
+  }
+  :root {
+    /* variables para paleta de colores*/
+    --FontColor:  rgb(247, 247, 247);
+    --FontColor2: rgb(129, 126, 126);
+  }
+  html{
+  width: 100%;   
+   
+  }
+  body{ 
+  background:
+  /* top, transparent black, faked with gradient */ 
+  linear-gradient(
+    rgba(0, 0, 0, 0.7), 
+    rgba(0, 0, 0, 0.7)
+  ),
+  /* bottom, image */
+  url(https://images6.alphacoders.com/703/703556.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  }
+  
+  h1.alma{
+      color:var(--FontColor);   
+      font-family: GranT;
+      letter-spacing: 4px;
+      float: left;
+  }
+  
+  .limpiar{
+    clear: both;
+  }
+   .flex{
+    display: flex; 
+    width: 100%;
+    justify-content: space-around;
+    text-align: center;
+  }
+  .item {
+    flex-grow: 1;
+    color: var(--FontColor2); 
+    font-family: GranT;  
+  }
+  #image{
+    background-image: url(https://static.wikia.nocookie.net/granturismo/images/b/bd/Gran_turismo_1.jpg/revision/latest?cb=20110824180221&path-prefix=es);
+    width: 35rem;
+    height: 35rem;
+    background-position:center; 
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #image2{
+    background-image: url(https://www.gran-turismo.com/images/c/i1Fieh6FHq9ifuH.jpg);
+    width: 30rem;
+    height: 35rem;
+    background-position: center; 
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #image3{
+    background-image: url(https://a.allegroimg.com/s512/113e66/f22f0f1e4c2fadc4b41a653553c8/GRAN-TURISMO-3-A-SPEC-PS2);
+    width: 25rem;
+    height: 35rem;
+    background-position:center; 
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  #image4{
+    background-image: url(https://www.gran-turismo.com/images/c/i1UkJZak4T1rSEc.jpg);
+    width: 25rem;
+    height: 35rem;
+    background-position:center; 
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;   
+  }
+  
+  #image5{
+    background-image: url(https://www.gran-turismo.com/images/c/i1gv9xzQGHMucSH.jpg);
+    width: 30rem;
+    height: 35rem;
+    background-position: center; 
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #image6{
+    background-image: url(https://sm.ign.com/ign_es/screenshot/g/gran-turismo-6-muestra-sus-dos-caratulas/gran-turismo-6-muestra-sus-dos-caratulas_ckud.jpg);
+    width: 30rem;
+    height: 35rem;
+    background-position: center; 
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  

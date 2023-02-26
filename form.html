@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Compra</title>
+    <link rel="stylesheet" href="HTML/Estilo/form.css">
+</head>
+
+<body>
+    <div class="transition">
+        <div>
+            <a href="Index.html">
+                <h1 class="alma">Formulario de Compra</h1>
+            </a>
+        </div>
+        <form class="formula" action="">
+            <div>
+                <label for="Nombre">Nombre:</label><br>
+                <input type="text" name="Nombre">
+                <br>
+                <label for="Apellidos">Apellidos:</label><br>
+                <input type="text" name="Apellidos">
+                <br>
+                <label for="Email">Email:</label><br>
+                <input type="email" required name="Email">
+                <br><br>
+                <input type="submit" value="Submit">
+            </div>
+            <div>
+                <label for="CNumber">Número de Tarjeta:</label><br>
+                <input type="password" id="tarjeta" name="tarjeta" pattern="^4[0-9]{12}(?:[0-9]{3})?$" required>
+                <br>
+                <label for="Apellidos">Apellidos:</label><br>
+                <input type="text" name="Apellidos">
+                <br>
+                <label for="Email">Email:</label><br>
+                <input type="email" required name="Email">
+                <br>
+            </div>
+            <div>
+                <label for="checkbox1">From Software</label>
+                <input type="checkbox" id="checkbox1" />
+                <div class="opciones1">
+                    <label><input type="checkbox"> Dark Souls</label>
+                    <label><input type="checkbox"> Dark Souls II</label>
+                    <label><input type="checkbox"> Dark Souls III</label>
+                    <label><input type="checkbox"> Bloodborne</label>
+                    <label><input type="checkbox"> Sekiro</label>
+                    <label><input type="checkbox"> Demon's Souls</label>
+                    <label><input type="checkbox"> Elden Ring</label>
+                </div>
+
+                <label for="checkbox2">Capcom</label>
+                <input type="checkbox" id="checkbox2" />
+                <div class="opciones2">
+                    <label><input type="checkbox"> Street Fighter</label>
+                    <label><input type="checkbox"> Ace Attorney</label>
+                    <label><input type="checkbox"> MEGA-MAN</label>
+                    <label><input type="checkbox"> Monster Hunter</label>
+                    <label><input type="checkbox"> Resident Evil</label>
+                    <label><input type="checkbox"> Marvel VS Capcom</label>
+                    <label><input type="checkbox"> Devil May Cry</label>
+                </div>
+
+                <label for="checkbox3">Bandai Namco</label>
+                <input type="checkbox" id="checkbox3" />
+                <div class="opciones3">
+                    <label><input type="checkbox"> TEKKEN</label>
+                    <label><input type="checkbox"> DBZ Budokai Tenkaichi 3</label>
+                    <label><input type="checkbox"> Dark Souls</label>
+                    <label><input type="checkbox"> Naruto Shippuden Ultimate Ninja Storm 4</label>
+                    <label><input type="checkbox"> PAC-MAN</label>
+                </div>
+                
+                <label for="checkbox4">PlayStation Studios</label>
+                <input type="checkbox" id="checkbox4" />
+                <div class="opciones4">
+                    <label><input type="checkbox"> God of War</label>
+                    <label><input type="checkbox"> Ratchet & Clank</label>
+                    <label><input type="checkbox"> The Last of Us</label>
+                    <label><input type="checkbox"> Gran Turismo</label>
+                    <label><input type="checkbox"> Medievil</label>
+                </div>
+            </div>
+        </form>
+</body>
+
+</html>

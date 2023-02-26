@@ -1,3 +1,12 @@
+@font-face {
+  font-family:'DS';
+  src: url("../Fonts/GARA.TTF");
+}
+:root {
+  /* variables para paleta de colores*/
+  --FontColor:  rgb(141, 145, 148);
+  --FontColor2: rgb(139, 16, 16);
+}
 html{
 width: 100%;   
      
@@ -16,8 +25,8 @@ background-attachment: fixed;
 background-size: cover;
 }
 h1.almaII{
-color: aliceblue;   
-font-family: initial;
+color: var(--FontColor);   
+font-family: DS;
 letter-spacing: 4px;
 float: left;
 }
@@ -29,8 +38,8 @@ text-align: center;
 }
 .item {
   flex-grow: 1;
-  color: aliceblue; 
-  font-size: initial;  
+  color:var(--FontColor2); 
+  font-family: DS;
 }
 #image{
   background-image: url(http://2.bp.blogspot.com/-Trs_CosOjs0/VV-wG8sErkI/AAAAAAAAAQM/NPG_6s2KLZ4/s1600/Dark%2BSouls%2B2%2B-%2BSir%2BAlonne%2B2.jpg);

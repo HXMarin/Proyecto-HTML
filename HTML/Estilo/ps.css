@@ -1,0 +1,133 @@
+@font-face {
+    font-family:'PS';
+    src: url("../Fonts/psnew.ttf");
+  }
+  :root {
+    /* variables para paleta de colores*/
+    --FontColor:  #000000;
+    --FontColor2: rgb(73, 73, 73);
+  }
+  html{
+      width: 100%;   
+       
+      }
+      body{ 
+      background:
+      /* top, transparent black, faked with gradient */ 
+      linear-gradient(
+        rgba(0, 0, 0, 0.7), 
+        rgba(0, 0, 0, 0.7)
+      ),
+      /* bottom, image */
+      url(https://w0.peakpx.com/wallpaper/246/337/HD-wallpaper-sony-playstation-black-galaxy-plus-premium-ps-ultra-white.jpg);
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+      }
+      @keyframes slideInFromLeft {
+        0% {
+          transform: translateX(100%);
+        }
+        100% {
+          transform: translateX(0);
+        }
+      }
+      
+      .transition {  
+        /* This section calls the slideInFromLeft animation we defined above */
+        animation: 1s ease-out 0s 1 slideInFromLeft;
+      }
+      
+      h1.alma{
+          color: var(--FontColor);   
+          font-family: PS;
+          padding: 10px;
+          border-radius: 2px;
+          background-color: white;
+          font-size: 60px;
+          float: left;
+      }
+      
+      .limpiar{
+        clear: both;
+      }
+       .flex{
+        padding: 0;
+        display: flex; 
+        width: 100%;
+        justify-content: space-around;
+        text-align: center;
+      }
+      .item {
+        flex-grow: 1;
+        color: aliceblue; 
+        font-size: initial;  
+      }
+      #image{
+        background-image: url(https://static.wikia.nocookie.net/heroes-unite/images/e/ed/5a6ef7e44b3d8382474463.png/revision/latest?cb=20190105235130);
+        width: 45rem;
+        height: 25rem;
+        background-position:center; 
+        position: relative;
+        background-repeat: no-repeat;
+        background-size: cover;   
+      }
+      #image2{
+        background-image: url(https://cdn.freebiesupply.com/logos/large/2x/gran-turismo-logo-black-and-white.png);
+        width: 40rem;
+        height: 40rem;
+        background-position: center; 
+        position: relative;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      #image3{
+        background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/The_Last_of_Us_Hunters_Logo.svg/2048px-The_Last_of_Us_Hunters_Logo.svg.png);
+        width: 40rem;
+        height: 40rem;
+        background-position: center;
+        background-color: aliceblue;
+        position: relative;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      
+      #image4{
+        background-image: url(https://static.wikia.nocookie.net/logopedia/images/7/78/Ratchet_%26_Clank_%282007%29.png/revision/latest?cb=20140112192502);
+        width: 48rem;
+        height: 20rem;
+        background-position:center; 
+        position: relative;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      
+      #image5{
+        background-image: url(https://freepngimg.com/download/uncharted/21880-6-uncharted-logo-transparent.png);
+        width: 40rem;
+        height: 25rem;
+        background-position: center; 
+        background-color: aliceblue;
+        position: relative;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      #image6{
+        background-image: url(https://pbs.twimg.com/media/DcsHUWMWkAIV0ml.png:large);
+        width: 40rem;
+        height: 45rem;
+        background-position: center; 
+        position: relative;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      #image7{
+        background-image: url(https://image.api.playstation.com/vulcan/img/rnd/202011/0216/WryNi88R3kpwp0NCuLs1zzF1.png);
+        width: 80rem;
+        height: 24rem;
+        background-position: center; 
+        position: relative;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      

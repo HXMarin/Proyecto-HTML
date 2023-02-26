@@ -1,3 +1,12 @@
+@font-face {
+  font-family:'DS';
+  src: url("../Fonts/GARA.TTF");
+}
+:root {
+  /* variables para paleta de colores*/
+  --FontColor:  rgb(243, 247, 250);
+  --FontColor2: rgb(139, 16, 16);
+}
 html{
     width: 100%;   
      
@@ -16,8 +25,8 @@ html{
     background-size: cover;
     }
     h1.alma3{
-        color: aliceblue;   
-        font-family: initial;
+        color: var(--FontColor);   
+        font-family: DS;
         letter-spacing: 4px;
         float: left;  
      }

@@ -1,3 +1,12 @@
+@font-face {
+  font-family:'DES';
+  src: url("../Fonts/BM.otf");
+}
+:root {
+  /* variables para paleta de colores*/
+  --FontColor1:  #dbd9d7;
+  --FontColor2: rgb(73, 73, 73);
+}
 html{
     width: 100%;   
      
@@ -18,8 +27,8 @@ html{
     
     
     h1.alma{
-        color: aliceblue;   
-        font-family: initial;
+        color:var(--FontColor1);   
+        font-family: DES;
         letter-spacing: 4px;
         float: left;
        

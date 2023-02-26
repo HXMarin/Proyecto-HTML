@@ -1,3 +1,12 @@
+@font-face {
+  font-family:'MH';
+  src: url("../Fonts/goblin.ttf");
+}
+:root {
+  /* variables para paleta de colores*/
+  --FontColor:  #d8c696;
+  --FontColor2: rgb(73, 73, 73);
+}
 html{
     width: 100%;   
      
@@ -17,9 +26,11 @@ html{
     }
     
     h1.alma{
-        color: aliceblue;   
-        font-family: initial;
-        letter-spacing: 4px;
+        color: var(--FontColor);   
+        font-family: MH;
+        letter-spacing: 3px;
+        -webkit-text-stroke-width: 0.5px;
+        -webkit-text-stroke-color: #000000;
         float: left;
        
      }
@@ -31,8 +42,9 @@ html{
       }
       .item {
         flex-grow: 1;
-        color: aliceblue; 
-        font-size: initial;  
+        color: var(--FontColor2); 
+        font-size: medium;
+        font-family: MH;  
       }
       #image{
         background-image: url(https://static.wikia.nocookie.net/monsterhunter/images/3/35/MHWI-Ruiner_Nergigante_Icon.png/revision/latest?cb=20210724012223);

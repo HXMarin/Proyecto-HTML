@@ -1,3 +1,12 @@
+@font-face {
+  font-family:'MM';
+  src: url("../Fonts/MEGAMAN.ttf");
+}
+:root {
+  /* variables para paleta de colores*/
+  --FontColor:  #0245ff;
+  --FontColor2: rgb(73, 73, 73);
+}
 html{
     width: 100%;   
      
@@ -17,10 +26,10 @@ html{
     }
     
     h1.alma{
-        color: aliceblue;   
-        font-family: initial;
-        letter-spacing: 4px;
+        color: var(--FontColor);   
+        font-family: MM;
         float: left;
+        font-size: 40px;
        
      }
      .flex{
@@ -32,7 +41,8 @@ html{
       .item {
         flex-grow: 1;
         color: aliceblue; 
-        font-size: initial;  
+        font-family: MM;  
+        font-size: large;
       }
       #image{
         background-image: url(https://static.wikia.nocookie.net/megaman/images/3/3a/Mega_Man_X_DiVE_Magma_Dragoon.png/revision/latest?cb=20200806093733);

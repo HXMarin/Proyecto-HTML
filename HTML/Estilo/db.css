@@ -1,3 +1,14 @@
+@font-face {
+  font-family:'Dragon Ball';
+  src: url("../Fonts/DragonBall.ttf");
+}
+:root {
+  /* variables para paleta de colores*/
+  --amarillo: #fee802;
+  --naraja: #e46201;
+  --rojo: #d7010b;
+}
+
 html{
     width: 100%;   
      
@@ -30,7 +41,8 @@ html{
       .item {
         flex-grow: 1;
         color: aliceblue; 
-        font-size: initial;  
+        font-size: initial;
+        font-family: Dragon Ball;  
       }
       #image{
         background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/f70be9e1-3131-47cc-8fb2-32deb15e758e/de4mvdj-f91b2144-a438-421c-9ba2-d5205815d667.png/v1/fill/w_1920,h_3024,strp/son_goku_v_12_render_by_butanobakaart_de4mvdj-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MzAyNCIsInBhdGgiOiJcL2ZcL2Y3MGJlOWUxLTMxMzEtNDdjYy04ZmIyLTMyZGViMTVlNzU4ZVwvZGU0bXZkai1mOTFiMjE0NC1hNDM4LTQyMWMtOWJhMi1kNTIwNTgxNWQ2NjcucG5nIiwid2lkdGgiOiI8PTE5MjAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.syKqz-k8CeRts-5U5QdtnHBnP2FEJ5VDxQIEF-m-Wl4);
@@ -109,3 +121,53 @@ html{
       video{
         width: 90%;
       }
+      .dragonBallZ{
+        font-family: 'Dragon Ball';
+        text-shadow: 0 0 2px black;
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: rgb(0, 0, 0);
+        letter-spacing: -20px;
+        font-size: 150px;
+        width: 25%;
+    }
+    
+    .dragon{
+        color: var(--amarillo);
+        display: flex;
+    }
+    
+    .ball {
+        color: var(--rojo);
+        display: flex;
+        padding-left: 2px;
+    }
+    
+    .dragon-o {
+        color: var(--naraja);
+    }
+    
+    .Z {
+        padding-left: 2px;
+        color: var(--rojo);
+    }    
+    /* z-index */
+    
+    .primero {
+        z-index: 4;
+    }
+    
+    .segundo {
+        z-index: 3;
+    }
+    
+    .tercero {
+        z-index: 2;
+    }
+    
+    .cuarto {
+        z-index: 1;
+    }
+    a{
+     text-decoration:none; 
+     display: flex;
+    }

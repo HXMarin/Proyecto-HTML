@@ -1,3 +1,13 @@
+@font-face {
+  font-family:'sekiro';
+  src: url("../Fonts/serpentine.ttf");
+}
+:root {
+  /* variables para paleta de colores*/
+  --FontColor1-1:  rgba(255, 255, 255, 0.7);
+  --FontColor1-2:  rgba(242, 198, 111, 0.7);
+  --FontColor2: rgb(73, 73, 73);
+}
 html{
     width: 100%;   
      
@@ -16,13 +26,25 @@ html{
     background-size: cover;
     }
     
-    h1.alma{
-        color: aliceblue;   
-        font-family: initial;
-        letter-spacing: 4px;
+    h1.alma1{
+        color:var(--FontColor1-1);   
+        font-family: sekiro;
+        letter-spacing: 6px;
+        font-size:60px;
         float: left;
        
      }
+     h1.alma2{
+      color:var(--FontColor1-2);   
+      font-family: sekiro;
+      letter-spacing: 2px;
+      font-size: large;
+      float: left;
+      padding: 50px;
+      padding-left: 0;
+      margin:0;
+     
+   }
      .flex{
         display: flex; 
         width: 100%;

@@ -1,3 +1,13 @@
+@font-face {
+  font-family:'namco';
+  src: url("../Fonts/namco__.ttf");
+}
+:root {
+  /* variables para paleta de colores*/
+  --FontColor:  rgb(244, 244, 244);
+  --FontColor2: rgb(139, 16, 16);
+  --backgroundColor: rgb(234, 71, 59);
+}
 html{
     width: 100%;   
      
@@ -30,10 +40,13 @@ html{
     }
     
     h1.alma{
-        color: aliceblue;   
-        font-family: initial;
-        letter-spacing: 4px;
+        color:var(--FontColor);   
+        font-family: namco;
+        border-radius: 5%;
+        letter-spacing: 6px;
         float: left;
+        padding: 10px;
+        background-color: var(--backgroundColor);
     }
     
     .limpiar{

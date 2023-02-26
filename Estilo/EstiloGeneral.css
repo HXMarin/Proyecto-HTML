@@ -292,7 +292,7 @@ button {
 button:hover{
   float: right;
   background:
-    linear-gradient(rgba(127, 127, 127, 0.7),
+    linear-gradient(rgba(241, 241, 241, 0.7),
       rgba(127, 127, 127, 0.7));
   background-size: cover;
   background-repeat: no-repeat;

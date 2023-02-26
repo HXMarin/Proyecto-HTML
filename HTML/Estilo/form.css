@@ -1,0 +1,31 @@
+@font-face {
+    font-family:'formula';
+    src: url("../Fonts/GODOFWAR.TTF");
+  }
+  :root {
+    /* variables para paleta de colores*/
+    --FontColor:  rgb(247, 247, 247);
+    --FontColor2: rgb(129, 126, 126);
+  }
+html {
+    width: 100%;
+}
+
+.formula {
+    display: flex;
+    gap: 20px;
+}
+
+.opciones1,
+.opciones2,
+.opciones3,
+.opciones4 {
+    display: none;
+}
+
+#checkbox1:checked~.opciones1,
+#checkbox2:checked~.opciones2,
+#checkbox3:checked~.opciones3,
+#checkbox4:checked~.opciones4 {
+    display: block;
+}

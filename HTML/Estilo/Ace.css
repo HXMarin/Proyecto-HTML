@@ -1,3 +1,12 @@
+@font-face {
+  font-family:'AT';
+  src: url("../Fonts/casablanca.ttf");
+}
+:root {
+  /* variables para paleta de colores*/
+  --FontColor:  #0b45ab;
+  --FontColor2: rgb(73, 73, 73);
+}
 html{
     width: 100%;   
      
@@ -17,10 +26,13 @@ html{
     }
     
     h1.pelea{
-        color: aliceblue;   
-        font-family: initial;
+        color: var(--FontColor);   
+        font-family: AT;
         letter-spacing: 4px;
+        -webkit-text-stroke-width: 0.5px;
+        -webkit-text-stroke-color: rgb(255, 255, 255);
         float: left;
+        font-size: 50px;
     }
     
     .limpiar{
@@ -34,8 +46,9 @@ html{
     }
     .item {
       flex-grow: 1;
-      color: aliceblue; 
-      font-size: initial;  
+      color: var(--FontColor2); 
+      font-family: AT;  
+      font-size: large;
     }
     #image{
       background-image: url(https://c.tenor.com/2RsgryK4fv8AAAAC/phoenix-wright-ace-attorney.gif);

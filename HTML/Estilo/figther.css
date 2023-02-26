@@ -1,3 +1,12 @@
+@font-face {
+  font-family:'ST';
+  src: url("../Fonts/BrutalFontPro.ttf");
+}
+:root {
+  /* variables para paleta de colores*/
+  --FontColor:  #fd2525a0;
+  --FontColor2: rgb(73, 73, 73);
+}
 html{
     width: 100%;   
      
@@ -17,10 +26,10 @@ html{
     }
     
     h1.pelea{
-        color: aliceblue;   
-        font-family: initial;
-        letter-spacing: 4px;
+        color: var(--FontColor);   
+        font-family: ST;
         float: left;
+        font-size: 50px;
     }
     
     .limpiar{
