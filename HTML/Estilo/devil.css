@@ -1,3 +1,12 @@
+@font-face {
+  font-family:'Devil';
+  src: url("../Fonts/ParkAvenueITALIC.ttf");
+}
+:root {
+  /* variables para paleta de colores*/
+  --FontColor:  #0e0d0d;
+  --FontColor2: rgb(139, 16, 16);
+}
 html{
     width: 100%;   
      
@@ -16,11 +25,13 @@ html{
     background-size: cover;
     }
     h1.alma3{
-        color: aliceblue;   
-        font-family: initial;
-        letter-spacing: 4px;
+        color: var(--FontColor);   
+        font-family: Devil;
         float: left;  
-     }
+        font-size: 60px;
+        -webkit-text-stroke-width: 0.3px;
+        -webkit-text-stroke-color: #e00101b6;
+     }  
      .flex{
         display: flex; 
         width: 100%;
@@ -29,7 +40,8 @@ html{
       }
       .item {
         flex-grow: 1;
-        color: aliceblue; 
+        color: var(--FontColor2); 
+        font-family: Devil;
         font-size: initial;  
       }
       #image{

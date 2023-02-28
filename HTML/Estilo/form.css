@@ -1,16 +1,29 @@
 @font-face {
     font-family:'formula';
-    src: url("../Fonts/GODOFWAR.TTF");
+    src: url("../Fonts/sf.otf");
   }
   :root {
     /* variables para paleta de colores*/
-    --FontColor:  rgb(247, 247, 247);
+    --FontColor:  rgb(255, 255, 255);
     --FontColor2: rgb(129, 126, 126);
   }
 html {
     width: 100%;
+    background-color: rgb(172, 172, 172);
+    background-attachment: fixed;
 }
-
+h1 {
+    color:var(--FontColor);
+    font-family: formula;
+    text-transform: uppercase;
+    padding: 10px;
+    background-color: black;
+  }
+  a{
+    text-decoration: none;
+    display: flex;
+    width: 35%;
+  }
 .formula {
     display: flex;
     gap: 20px;
@@ -28,4 +41,17 @@ html {
 #checkbox3:checked~.opciones3,
 #checkbox4:checked~.opciones4 {
     display: block;
+}
+div.content{
+  margin: 0 auto;
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+div.compra{
+  align-items: center;
+  width: 90%;
+  float: right;
 }

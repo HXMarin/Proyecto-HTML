@@ -5,7 +5,7 @@
   :root {
     /* variables para paleta de colores*/
     --FontColor:  #000000;
-    --FontColor2: rgb(73, 73, 73);
+    --FontColor2: rgb(134, 133, 133);
   }
   html{
       width: 100%;   
@@ -39,11 +39,11 @@
       }
       
       h1.alma{
-          color: var(--FontColor);   
+          color: var(--FontColor2);   
           font-family: PS;
           padding: 10px;
           border-radius: 2px;
-          background-color: white;
+        
           font-size: 60px;
           float: left;
       }

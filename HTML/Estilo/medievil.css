@@ -1,0 +1,115 @@
+@font-face {
+    font-family: 'ME';
+    src: url("../Fonts/medie.TTF");
+}
+
+:root {
+    /* variables para paleta de colores*/
+    --FontColor: #eaae57;
+    --FontColor2: rgb(129, 126, 126);
+}
+
+html {
+    width: 100%;
+
+}
+
+body {
+    background:
+        /* top, transparent black, faked with gradient */
+        linear-gradient(rgba(0, 0, 0, 0.7),
+            rgba(0, 0, 0, 0.7)),
+        /* bottom, image */
+        url(https://wallpapercave.com/wp/wp4769293.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h1.alma {
+    color: var(--FontColor);
+    font-family: ME;
+    letter-spacing: 4px;
+    float: left;
+    font-size: 50px;
+    padding: 10px;
+    background: rgb(5, 4, 77);
+    background: linear-gradient(90deg, rgba(5, 4, 77, 1) 10%, rgba(9, 9, 121, 1) 31%, rgba(51, 0, 255, 1) 59%, rgba(2, 0, 36, 1) 90%);
+}
+
+.limpiar {
+    clear: both;
+}
+
+.flex {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.item {
+    flex-grow: 1;
+    color: var(--FontColor2);
+    font-family: ME;
+}
+
+#image {
+    background-image: url(https://preview.redd.it/if-kratos-ever-returns-should-he-be-allowed-to-have-all-his-v0-umjod87o5hy91.png?auto=webp&s=9027ef78ceab6987d04aef97ccc889709604965a);
+    width: 30rem;
+    height: 40rem;
+    background-position: center;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#image2 {
+    background-image: url(https://static.wikia.nocookie.net/p__/images/7/7f/Atreus_God_of_War.png/revision/latest?cb=20200707015112&path-prefix=protagonist);
+    width: 35rem;
+    height: 37rem;
+    background-position: center;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#image3 {
+    background-image: url(https://static.wikia.nocookie.net/godofwar/images/e/e9/Capture_d%E2%80%99%C3%A9cran_2023-01-26_%C3%A0_20.45.43.png/revision/latest?cb=20230127102918);
+    width: 30rem;
+    height: 40rem;
+    background-position: center;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#image4 {
+    background-image: url(https://static.wikia.nocookie.net/villains/images/f/fe/Odin_%28God_of_War%29_Official_Render.png/revision/latest?cb=20230131110135);
+    width: 25rem;
+    height: 50rem;
+    background-position: center;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#image5 {
+    background-image: url(https://static.wikia.nocookie.net/topstrongest/images/c/c5/GoWZeus.png/revision/latest?cb=20210227055016);
+    width: 32rem;
+    height: 50rem;
+    background-position: center;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#image6 {
+    background-image: url(https://static.wikia.nocookie.net/p__/images/3/38/GoWR_Freya.webp/revision/latest?cb=20221124025413&path-prefix=protagonist);
+    width: 25rem;
+    height: 50rem;
+    background-position: left;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

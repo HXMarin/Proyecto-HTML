@@ -1,0 +1,116 @@
+@font-face {
+    font-family:'pac';
+    src: url("../Fonts/PAC-FONT.TTF");
+  }
+  :root {
+    /* variables para paleta de colores*/
+    --FontColor:  rgb(255, 255, 255);
+    --FontColor2: rgb(240, 229, 229);
+  }
+  
+  html {
+    width: 100%;
+  
+  }
+  
+  body {
+    background:
+      /* top, transparent black, faked with gradient */
+      linear-gradient(rgba(0, 0, 0, 0.7),
+        rgba(0, 0, 0, 0.7)),
+      /* bottom, image */
+      url(http://cdn.cnn.com/cnnnext/dam/assets/200518114838-05-pac-man-40.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  
+  h1.Ttitulo {
+    color:var(--FontColor);
+    float: left;
+    font-family: pac;
+    letter-spacing: 13px;
+    -webkit-text-stroke-width: 4px;
+    -webkit-text-stroke-color: rgb(253, 195, 2);
+    font-size: 60px;
+  }
+  
+  .flex {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    text-align: center;
+  }
+  
+  .item {
+    flex-grow: 1;
+    color: var(--FontColor2);
+    font-family: pac;
+    font-size: medium;
+  }
+  
+  #image {
+    background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/ba3d6bf0-f660-4ce1-a12b-6e1505215b69/dfjzehk-613b1fbe-3296-4136-8341-602847a5062b.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2JhM2Q2YmYwLWY2NjAtNGNlMS1hMTJiLTZlMTUwNTIxNWI2OVwvZGZqemVoay02MTNiMWZiZS0zMjk2LTQxMzYtODM0MS02MDI4NDdhNTA2MmIucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0._HK2QUxcUI9cuNl6huzoyGEOk_qgGeN_V1lzMxGqeQ8);
+    width: 34rem;
+    height: 83rem;
+    background-position: center;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  #image2 {
+    background-image: url(https://static.wikia.nocookie.net/villains/images/d/de/Kazuya_Tekken_8.png/revision/latest?cb=20230131025523);
+    width: 38rem;
+    height: 83rem;
+    background-position: center;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  #image3 {
+    background-image: url(https://static.wikia.nocookie.net/tekkenlatino/images/0/01/Hei.png/revision/latest/scale-to-width-down/613?cb=20091208012804&path-prefix=es);
+    width: 40rem;
+    height: 64rem;
+    background-position: center;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  #image4 {
+    background-image: url(https://www.tekken254.co.ke/assets/img/characters/tk7/devil-jin-2.png);
+    width: 55rem;
+    height: 64rem;
+    background-position: right;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  #image5 {
+    background-image: url(https://pbs.twimg.com/media/DtcZLBqUwAAEzfY.jpg);
+    width: 24rem;
+    height: 30rem;
+    background-position: center;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: black 1px solid;
+  }
+  
+  #image6 {
+    background-image: url(https://i1.sndcdn.com/artworks-000148051073-0n4neh-t500x500.jpg);
+    width: 27rem;
+    height: 30rem;
+    background-position: center;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: black 1px solid;
+  }
+  
+  video {
+    width: 90%;
+  }

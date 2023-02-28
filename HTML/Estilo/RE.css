@@ -1,95 +1,117 @@
-html{
-    width: 100%;   
-     
-    }
-    body{ 
-    background:
-    /* top, transparent black, faked with gradient */ 
-    linear-gradient(
-      rgba(0, 0, 0, 0.7), 
-      rgba(0, 0, 0, 0.7)
-    ),
+@font-face {
+  font-family: 'RE';
+  src: url("../Fonts/pank.ttf");
+}
+
+:root {
+  /* variables para paleta de colores*/
+  --FontColor1: #a50d0d;
+  --FontColor2: rgb(73, 73, 73);
+}
+
+html {
+  width: 100%;
+}
+
+body {
+  background:
+    /* top, transparent black, faked with gradient */
+    linear-gradient(rgba(0, 0, 0, 0.7),
+      rgba(0, 0, 0, 0.7)),
     /* bottom, image */
     url(https://images2.alphacoders.com/105/thumb-1920-1057560.jpg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    }
-    
-    h1.alma{
-        color: aliceblue;   
-        font-family: initial;
-        letter-spacing: 4px;
-        float: left;
-       
-     }
-     .flex{
-        display: flex; 
-        width: 100%;
-        justify-content: space-around;
-        text-align: center;
-      }
-      .item {
-        flex-grow: 1;
-        color: aliceblue; 
-        font-size: initial;  
-      }
-      #image{
-        background-image: url(https://steamuserimages-a.akamaihd.net/ugc/1004772892800903941/74C2771FE77F5A98F755484DC1B4B12F76C42E25/?imw=512&&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false);
-        border: 1px solid black;
-        width: 33rem;
-        height: 35rem;
-        background-position:center; 
-        position: relative;
-        background-repeat: no-repeat;
-        background-size: cover;   
-      }
-      #image2{
-        background-image: url(https://i.ytimg.com/vi/u_y9Ge623E8/maxresdefault.jpg);
-        border: 1px solid black;
-        width: 33rem;
-        height: 35rem;
-        background-position:center; 
-        position: relative;
-        background-repeat: no-repeat;
-        background-size: cover;
-      }
-      #image3{
-        background-image: url(https://teppenthegame.com/_materials/img/world/heroes/hero016/char_sp.png);
-        width: 33rem;
-        height: 30rem;
-        background-position: calc(); 
-        position: relative;
-        background-repeat: no-repeat;
-        background-size: cover;
-      }
-      
-      #image4{
-        background-image: url(https://static.wikia.nocookie.net/villains/images/4/4f/William_Form_3_REmake2.png/revision/latest?cb=20210603083305);
-        width: 34rem;
-        height: 30rem;
-        background-position:center; 
-        position: relative;
-        background-repeat: no-repeat;
-        background-size: cover;
-      }
-      
-      #image5{
-        background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/0276f574-98ea-4e2d-ba44-68f500bf01bc/deloy8q-49def971-c9c2-4331-b64b-5b1c43b0edf7.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzAyNzZmNTc0LTk4ZWEtNGUyZC1iYTQ0LTY4ZjUwMGJmMDFiY1wvZGVsb3k4cS00OWRlZjk3MS1jOWMyLTQzMzEtYjY0Yi01YjFjNDNiMGVkZjcucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.oxJHd0Vbs_hVAsLE5sbWrYm7CUeB7diQ0pj87_IRqQI);
-        width: 34rem;
-        height: 30rem;
-        background-position: center; 
-        position: relative;
-        background-repeat: no-repeat;
-        background-size: cover;
-    
-      }
-      #image6{
-        background-image: url(https://i.pinimg.com/originals/b9/47/57/b94757bf8b2557d9d5457424db814134.png);
-        width: 33rem;
-        height: 30rem;
-        background-position: calc(); 
-        position: relative;
-        background-repeat: no-repeat;
-        background-size: cover;
-      }
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+h1.alma1 {
+  color: var(--FontColor1);
+  font-family: RE;
+  letter-spacing: 4px;
+  float: left;
+}
+
+h1.alma2 {
+  color: var(--FontColor2);
+  font-family: RE;
+  letter-spacing: 4px;
+  float: left;
+}
+
+.flex {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.item {
+  flex-grow: 1;
+  color: var(--FontColor2);
+  font-size: initial;
+  font-family: RE;
+}
+
+#image {
+  background-image: url(https://steamuserimages-a.akamaihd.net/ugc/1004772892800903941/74C2771FE77F5A98F755484DC1B4B12F76C42E25/?imw=512&&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false);
+  border: 1px solid black;
+  width: 33rem;
+  height: 35rem;
+  background-position: center;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#image2 {
+  background-image: url(https://i.ytimg.com/vi/u_y9Ge623E8/maxresdefault.jpg);
+  border: 1px solid black;
+  width: 33rem;
+  height: 35rem;
+  background-position: center;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#image3 {
+  background-image: url(https://teppenthegame.com/_materials/img/world/heroes/hero016/char_sp.png);
+  width: 33rem;
+  height: 30rem;
+  background-position: calc();
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#image4 {
+  background-image: url(https://static.wikia.nocookie.net/villains/images/4/4f/William_Form_3_REmake2.png/revision/latest?cb=20210603083305);
+  width: 34rem;
+  height: 30rem;
+  background-position: center;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#image5 {
+  background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/0276f574-98ea-4e2d-ba44-68f500bf01bc/deloy8q-49def971-c9c2-4331-b64b-5b1c43b0edf7.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzAyNzZmNTc0LTk4ZWEtNGUyZC1iYTQ0LTY4ZjUwMGJmMDFiY1wvZGVsb3k4cS00OWRlZjk3MS1jOWMyLTQzMzEtYjY0Yi01YjFjNDNiMGVkZjcucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.oxJHd0Vbs_hVAsLE5sbWrYm7CUeB7diQ0pj87_IRqQI);
+  width: 34rem;
+  height: 30rem;
+  background-position: center;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+#image6 {
+  background-image: url(https://i.pinimg.com/originals/b9/47/57/b94757bf8b2557d9d5457424db814134.png);
+  width: 33rem;
+  height: 30rem;
+  background-position: calc();
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
