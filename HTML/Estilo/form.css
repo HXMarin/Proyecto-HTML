@@ -12,6 +12,19 @@ html {
     background-color: rgb(172, 172, 172);
     background-attachment: fixed;
 }
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.transition {  
+  /* This section calls the slideInFromLeft animation we defined above */
+  animation: 1s ease-out 0s 1 slideInFromLeft;
+}
 h1 {
     color:var(--FontColor);
     font-family: formula;
